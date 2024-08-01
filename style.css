@@ -315,7 +315,7 @@ input{
     opacity: 0.5;
 }
 
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 600px){
     body{
         margin: 0px;
         width: 100%;
