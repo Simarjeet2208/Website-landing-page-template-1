@@ -319,6 +319,7 @@ input{
     body{
         margin: 0px;
         width: 100%;
+        margin-left: 0px;
     }
     nav{
         display: none;
@@ -355,10 +356,19 @@ input{
         max-width: 200px;
     }
     section.one{
-        text-align: left;
-        max-width: 80%;
+        text-align: center;
+        width: 80%;
         margin-top: 150px;
         margin-bottom: 27px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section.two{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     section.two h2,section.two p{
         text-align: center;
@@ -381,6 +391,11 @@ input{
         margin-right: auto;
         width: 80%;
     }
+    .card{
+        max-width: 80%;
+        min-height: 100px;
+        text-align: center;
+    }
     section.three{
         display: block;
         text-align: center;
@@ -393,6 +408,16 @@ input{
     table {
         border-collapse: separate;
         border-spacing: 10px 0;
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img{
+        display: block;
+        width: 70%;
+        margin: 0px auto;
     }
     .four{
         display: block;
@@ -423,8 +448,9 @@ input{
     }
     .seventh-card-flex{
         display: block;
-        /* margin-right: 125px;
-        margin-left: 125px; */
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .img-para{
         margin-bottom: 200px;
