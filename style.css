@@ -318,37 +318,130 @@ input{
 @media only screen and (max-width: 600px){
     body{
         margin: 0px;
+        width: 100%;
     }
     nav{
+        display: none;
         padding: 0px;
-        flex-direction: column;
+        width: 100%;
+        /* flex-direction: column;
         gap: 0px;
         float: left;
         position : fixed;
         width: 25%;
-        background-color: white;
+        background-color: white; */
     }
     nav ul{
-        flex-direction: column;
-        background-color: white;
-    }
-    .button-arrow{
-        padding:0px;
-        width: 90px;
+        /* flex-direction: column;
+        background-color: white; */
     }
     .header{
-        position: relative;
-        left: 100px;
-        margin-right: 0px;
-        margin-left: 0px;
         display: block;
-        width: 75%;
+        margin: 0px;
+        width: 80%;
+    }
+    .button-register{
+        display: block;
         text-align: center;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .header h1{
-        font-size: 30.55px;
+        font-size: 2em;
     }
     .illustration-front{
-        display: none;
+        margin: 50px 0px;
+        max-width: 200px;
+    }
+    section.one{
+        text-align: left;
+        max-width: 80%;
+        margin-top: 150px;
+        margin-bottom: 27px;
+    }
+    section.two h2,section.two p{
+        text-align: center;
+        margin-top: 27px;
+        width: 80%;
+        margin-left: 0px;
+    }
+    .logo-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+        width: 80%;
+    }
+    .card-flex{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    section.three{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    td {
+        padding: 10px 0;
+    }
+    table {
+        border-collapse: separate;
+        border-spacing: 10px 0;
+    }
+    .four{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .five{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .fifth-flex{
+        display: block;
+    }
+    .sixth-flex{
+        display: block;
+        margin: auto 0px;
+    }
+    .second-logo-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        color: #4CAF4F;
+    }
+    .seven{
+        margin: auto 0px;
+    }
+    .seventh-card-flex{
+        display: block;
+        /* margin-right: 125px;
+        margin-left: 125px; */
+    }
+    .img-para{
+        margin-bottom: 200px;
+        width: 220.65px;
+        height: 113.55px;
+        text-align: center;
+        position: relative;
+        top: 132px;
+        background-color: #F5F7FA;
+        padding: 11.14px;
+        border-radius: 5.57px;
+        box-shadow: 2px 5px 20px rgb(167, 167, 167);
+    }
+    .footer-flex{
+        display: block;
+    }
+    .footer-firstdiv{
+        margin: 0px;
     }
 }
