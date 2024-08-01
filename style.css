@@ -8,13 +8,13 @@ ul{
     padding-left: 0px;
 }
 li{
-        
+    font-size: 15px;
 }
 a{
     text-decoration: none;
 }
 p{
-    font-size: 11.14px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 16.71px;
     color: #717171;
@@ -97,7 +97,7 @@ section.one{
     margin-bottom: 27px;
 }
 h2{
-    font-size: 25.06px;
+    font-size: 30.06px;
     font-weight: 600;
     line-height: 30.63px;
     text-align: center;
@@ -113,7 +113,6 @@ h2{
 }
 section.two{
     margin-top: 27px;
-
 }
 section.two p{
     text-align: center;
@@ -166,7 +165,7 @@ section.three h2{
     margin: 0px;
 }
 .four-first h2{
-    text-align: left;
+    text-align: center;
 }
 .four{
     display: flex;
@@ -399,8 +398,10 @@ input{
     section.three{
         display: block;
         text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
     }
     td {
         padding: 10px 0;
@@ -421,9 +422,9 @@ input{
     }
     .four{
         display: block;
-        margin-left: 0px;
-        margin-right: 0px;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
     .five{
         margin-left: 0px;
@@ -468,6 +469,9 @@ input{
         display: block;
     }
     .footer-firstdiv{
-        margin: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 }
