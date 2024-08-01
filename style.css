@@ -321,20 +321,23 @@ input{
         margin-left: 0px;
         padding: 0px 0px;
     }
-    nav{
+    .navbar-links{
         display: none;
-        padding: 0px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
-        /* flex-direction: column;
-        gap: 0px;
-        float: left;
-        position : fixed;
-        width: 25%;
-        background-color: white; */
+        padding: 0px;
+        gap: 50px;
+        margin-left: ;
+        height: 58.76px;
+        font-weight: 500;
+        color: #4D4D4D;
+        background-color: white;
     }
     nav ul{
-        /* flex-direction: column;
-        background-color: white; */
     }
     .header{
         display: block;
@@ -437,6 +440,15 @@ input{
         margin-right: auto;
         width: 80%;
     }
+    .sixth-parent{
+        background-color: #F5F7FA;
+    }
+    .six{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
     .sixth-flex{
         display: block;
         margin: auto 0px;
@@ -449,7 +461,10 @@ input{
         color: #4CAF4F;
     }
     .seven{
-        margin: auto 0px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
     }
     .seventh-card-flex{
         display: block;
