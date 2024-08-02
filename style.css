@@ -59,6 +59,7 @@ header{
     gap: 100px;
     margin-left:125px;
     margin-right:125px;
+    padding-bottom:50px ; 
 }
 .header h1{
     color: #4D4D4D;
@@ -112,7 +113,7 @@ h2{
     margin-top: 25px;
 }
 section.two{
-    margin-top: 27px;
+    margin-top: 57px;
 }
 section.two p{
     text-align: center;
