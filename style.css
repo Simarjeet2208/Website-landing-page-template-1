@@ -280,6 +280,7 @@ footer p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 .footer-firstdiv{
     margin-left: 125px;
@@ -373,6 +374,7 @@ input{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 30px;
     }
     
     .logo-flex{
@@ -405,8 +407,9 @@ input{
         text-align: center;
     }
     td {
-        padding: 10px 0;
+        padding: 20px 0;
     }
+    
     table {
         border-collapse: separate;
         border-spacing: 10px 0;
@@ -426,6 +429,9 @@ input{
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+        margin-top: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .five{
         margin-left: 0px;
@@ -488,6 +494,20 @@ input{
         display: block;
     }
     .footer-firstdiv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .logo-footer{
+        width: 80%;
+    }
+    #footer-list-flex{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 5%;
+    }
+    .input-footer{
         display: block;
         margin-left: auto;
         margin-right: auto;
